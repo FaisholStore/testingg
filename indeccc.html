@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Membuat Formulir Order Checkout Ke Pesan WhatsApp</title>
+      <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+      <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   </head>
+<body>
+    <div class="container">
+        <div class="col-lg-6 col-lg-offset-3">
+            <h4>Membuat Formulir Order Checkout Ke Pesan WhatsApp</h4>
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    Checkout Ke WhatsApp
+                </div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label>Nama</label>
+                        <input type="text" name="name" class="form-control" placeholder="Nama" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" name="email" class="form-control" placeholder="Email" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label>Nomor Kontak / WhatsApp</label>
+                        <input type="text" name="phone" class="form-control" placeholder="Nomor Kontak / WhatsApp" id="phone">
+                    </div>
+                    <div class="form-group">
+                        <label>Pilih Produk</label>
+                        <select name="product" class="form-control" id="product">
+                            <option value="">-- Pilih Produk --</option>
+                            <option value="sapi_standard">Sapi Standar</option>
+                            <option value="sapi_medium">Sapi Medium</option>
+                            <option value="sapi_super">Sapi Super</option>
+                            <option value="kambing_standard">Kambing Standar</option>
+                            <option value="kambing_medium">Kambing Medium</option>
+                            <option value="kambing_super">Kambing Super</option>
+                            <option value="aqiqah_sederhana">Aqiqah Sederhana</option>
+                            <option value="aqiqah_lumayan">Aqiqah Lumayan</option>
+                            <option value="aqiqah_lumayan_hemat">Aqiqah Lumayan Hemat</option>
+                            <option value="aqiqah_standar">Aqiqah Standar</option>
+                            <option value="aqiqah_super">Aqiqah Super</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Harga</label>
+                        <input type="harga" name="price" class="form-control" placeholder="Harga" id="price" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label>Metode Pembayaran</label>
+                        <select name="payment_method" class="form-control" id="payment_method">
+                            <option value="">-- Pilih Metode Pembayaran --</option>
+                            <option value="qris">QRIS</option>
+                            <option value="transfer_bank">Transfer Bank</option>
+                            <option value="cash">Cash on Delivery</option>
+                        </select>
+                    </div>
+                    <div id="qris_form" style="display: none;">
+                        <div class="form-group">
+                            <label>Kode QRIS</label>
+                            <input type="text" name="qris_code" class="form-control" placeholder="Kode QRIS" id="qris_code">
+                        </div>
+                    </div>
+                    <div id="transfer_form" style="display: none;">
+                        <div class="form-group">
+                            <label>Bank Tujuan</label>
+                            <select name="bank" class="form-control" id="bank">
+                                <option value="">-- Pilih Bank --</option>
+                                <option value="BCA">BCA</option>
+                                <option value="BNI">BNI</option>
+                                <option value="BRI">BRI</option>
+                                <option value="Mandiri">Mandiri</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Nomor Rekening</label>
+                            <input type="text" name="account_number" class="form-control" placeholder="Nomor Rekening" id="account_number">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Catatan</label>
+                        <textarea name="description" class="form-control" rows="3" id="description"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <button class="btn btn-success send">Pesan via WhatsApp</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+  
+  <script src="/vendor/php-email-form/validate.js"></script>
+
+</body>
+</html>

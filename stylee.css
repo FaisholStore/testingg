@@ -1,0 +1,292 @@
+header {
+	background-color: #fff;
+	box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
+}
+nav {
+	padding: 1rem 0;
+}
+nav a {
+	color: #000;
+}
+nav a:hover {
+	color: #000;
+}
+main {
+	padding: 3rem 0;
+	background-color: #f5f5f5;
+}
+main h1 {
+	font-size: 3rem;
+}
+main p {
+	font-size: 1.5rem;
+}
+img {
+	margin-top: 2rem;
+}
+footer {
+	padding: 1rem 0;
+	background-color: #ddd;
+}
+footer p {
+	font-size: 1.2rem;
+	margin-bottom: 0;
+}
+
+
+header {
+	background-color: #fff;
+	box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
+}
+nav {
+	padding: 1rem 0;
+}
+nav a {
+	color: #000;
+}
+nav a:hover {
+	color: #000;
+}
+
+
+.jumbotron {
+	background-color: #f5f5f5;
+	padding: 3rem 0;
+}
+.jumbotron h1 {
+	font-size: 3rem;
+}
+.jumbotron p {
+	font-size: 1.5rem;
+}
+.jumbotron img {
+	margin-top: 2rem;
+}
+
+
+
+.footer {
+	background-color:#a7a7a7;
+	padding: 50px 0;
+	margin-top: 50px;
+  }
+  
+  .footer h3 {
+	color:#070a0e;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+  }
+  
+  .footer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .footer ul li {
+	margin-bottom: 10px;
+  }
+  
+  .footer ul li a {
+	
+   color:#fff;
+	transition: color 0.2s;
+	text-decoration: none;
+  }
+  
+  .footer ul li a:hover {
+	color: #ffffff;
+  }
+  
+  .social-media {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+  }
+  /* css */
+  /* Copy code */
+  .social-media a i {
+	font-size: 40px; /* ukuran font */
+	color: #333; /* warna ikon */
+	margin-right: 20px; /* jarak antara ikon */
+  }
+  .social-media li a i.fab {
+	font-size: 1.2rem;
+  }
+  .social-media li a {
+	color: #000000;
+	transition: color 0.2s;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: #ffffff;
+	border: 1px solid #ccc;
+  }
+  
+  .social-media li a:hover {
+	color: #3366cc;
+	background-color: #3366cc;
+	border: 1px solid #3366cc;
+  }
+  
+  
+  .social-media li a {
+	color: #666;
+	transition: color 0.2s;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+  }
+  
+  .social-media li a:hover {
+	color: #3366cc;
+	background-color: #f8f8f8;
+  }
+  
+  #wa-sticky-button {
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	z-index: 9999;
+  }
+  
+  #wa-sticky-icon {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+  }
+
+
+  @media (max-width: 991px) {
+	.footer {
+	  padding: 40px 0;
+	}
+	.footer .social-media {
+	  margin-top: 20px;
+	  font-size: 18px;
+	  line-height: 28px;
+	}
+  }
+  
+  @media (max-width: 767px) {
+	.footer .social-media {
+	  font-size: 16px;
+	  line-height: 24px;
+	}
+  }
+  
+  @media (max-width: 575px) {
+	.footer {
+	  padding: 30px 0;
+	}
+	.footer h3 {
+	  font-size: 14px;
+	}
+	.footer ul li a {
+	  font-size: 12px;
+	  line-height: 20px;
+	}
+	.footer .social-media {
+	  font-size: 14px;
+	  line-height: 22px;
+	}
+	.footer #wa-sticky-button {
+	  padding: 6px;
+	}
+	.footer #wa-sticky-icon {
+	  width: 36px;
+	  height: 36px;
+	}
+  }
+
+#layanan {
+	padding: 30px 0;
+	background-color: var(--bs-body-bg)
+  }
+  
+  #layanan h2 {
+	text-align: center;
+  }
+  
+  #myCarousel {
+	max-width: 800px;
+	margin: auto;
+  }
+  
+  #myCarousel .carousel-item img {
+	width: 100%;
+	height: auto;
+  }
+  
+  #myCarousel .carousel-caption {
+	text-align: left;
+	left: 10%;
+	right: 10%;
+  }
+  
+  @media (max-width: 576px) {
+	#myCarousel .carousel-caption {
+	  left: 5%;
+	  right: 5%;
+	}
+  }
+  
+  @media (max-width: 768px) {
+	#myCarousel {
+	  max-width: 500px;
+	}
+  }
+
+
+#galeri {
+	background-color: #f9f9f9;
+	padding: 3rem 0;
+}
+#galeri h2 {
+	font-size: 2rem;
+	margin-bottom: 2rem;
+}
+#galeri img {
+	margin-bottom: 1rem;
+}
+
+#kontak {
+	background-color: var(--bs-body-bg);
+	  padding: 5rem 0;
+  }
+  #kontak h2 {
+	  font-size: 2rem;
+	  margin-bottom: 2rem;
+	  text-align: center;
+  }
+  form {
+	background-color: var(--bs-body-bg);
+	  padding: 1.5rem;
+  }
+  form label {
+	  font-size: 1.1rem;
+  }
+  form input,
+  form textarea {
+	  margin-bottom: 1rem;
+  }
+  form button {
+	  margin-top: 1rem;
+  }
+  iframe {
+	  width: 100%;
+	  height: 300px;
+	  border: none;
+	  margin-top: 2rem;
+  }
